@@ -52,7 +52,9 @@ print(selected_file)
 file_path = 'Index/selected_file'
 
 # Open the Excel file using the pandas ExcelFile class
-excel_file = pd.ExcelFile(selected_file)
+excel_file = pd.ExcelFile(file_path)
+
+print(excel_file)
 
 # Get a list of the sheet names in the file
 sheet_names = excel_file.sheet_names
