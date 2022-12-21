@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image
 
 # Change the current working directory to H:\Python\Index
-os.chdir("Index/GP Nr. 05,06,08.xlsx")
+os.chdir("Index/")
 
 # Get the current directory
 current_dir = os.getcwd()
