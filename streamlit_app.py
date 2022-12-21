@@ -8,6 +8,10 @@ import numpy as np
 from PIL import Image
 
 # Change the current working directory to H:\Python\Index
+current_dir = os.getcwd()
+
+print(current_dir)
+
 os.chdir("yousuf9292/chec/Index/")
 
 # Get the current directory
