@@ -8,14 +8,14 @@ import numpy as np
 from PIL import Image
 
 # Change the current working directory to H:\Python\Index
-current_dir = os.getcwd()
+#current_dir = os.getcwd()
 
-print('aaaa'+str(current_dir))
+#print('aaaa'+str(current_dir))
 
-os.chdir("yousuf9292/app/chec/Index")
+#os.chdir("yousuf9292/app/chec/Index")
 
 # Get the current directory
-current_dir = os.getcwd()
+#current_dir = os.getcwd()
 
 # Get the names of the files in the current directory
 #files = [file for file in os.listdir('.') if file.endswith('.xlsx')]
@@ -46,9 +46,10 @@ selected_workbook = st.sidebar.selectbox("GP Gruppe:", lista_wb_without_ext)
 
 # Use the selected option to retrieve the corresponding Excel file from the original list
 selected_file = lista_wb[lista_wb_without_ext.index(selected_workbook)]
+print(selected_file)
 
 # Construct the full path to the file
-file_path = os.path.join(current_dir, selected_file)
+file_path = 'Index/selected_file'
 
 # Open the Excel file using the pandas ExcelFile class
 excel_file = pd.ExcelFile(selected_file)
