@@ -49,7 +49,7 @@ selected_file = lista_wb[lista_wb_without_ext.index(selected_workbook)]
 print(selected_file)
 
 # Construct the full path to the file
-file_path = 'Index/selected_file'
+file_path = 'Index/'+selected_file
 
 # Open the Excel file using the pandas ExcelFile class
 excel_file = pd.ExcelFile(file_path)
