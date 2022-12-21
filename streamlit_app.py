@@ -12,7 +12,7 @@ current_dir = os.getcwd()
 
 print(current_dir)
 
-os.chdir("yousuf9292/chec/Index/")
+os.chdir("/Index")
 
 # Get the current directory
 current_dir = os.getcwd()
