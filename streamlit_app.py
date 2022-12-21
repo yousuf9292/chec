@@ -12,7 +12,7 @@ current_dir = os.getcwd()
 
 print('aaaa'+str(current_dir))
 
-os.chdir("/Index")
+os.chdir("app/chec/Index")
 
 # Get the current directory
 current_dir = os.getcwd()
