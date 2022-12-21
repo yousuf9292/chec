@@ -52,7 +52,7 @@ print(selected_file)
 file_path = 'https://github.com/yousuf9292/chec/blob/0054f1b0ebdad9bc97f6d271449b0e4d053fce52/Index/GP%20Nr.%2005,06,08.xlsx'
 
 # Open the Excel file using the pandas ExcelFile class
-excel_file = pd.ExcelFile(file_path)
+excel_file = pd.ExcelFile(file_path,engine='openpyxl')
 
 print(excel_file)
 
