@@ -10,7 +10,7 @@ from PIL import Image
 # Change the current working directory to H:\Python\Index
 current_dir = os.getcwd()
 
-print(current_dir)
+print('aaaa'+str(current_dir))
 
 os.chdir("/Index")
 
